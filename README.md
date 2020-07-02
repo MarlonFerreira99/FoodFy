@@ -28,7 +28,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 
 <img src="https://img.icons8.com/color/0.8x/javascript.png">
 
-<img src="https://img.icons8.com/color/0.8x/nodejs.png">
+<img src="https://img.icons8.com/color/0.9x/nodejs.png">
 
 
 ---
