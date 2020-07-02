@@ -1,0 +1,34 @@
+{% extends "layout.njk" %}
+
+  {% block content %}
+    
+    <div class="painel">
+      
+      <div>
+        <h1>As melhores receitas</h1>
+        <p>
+          Aprenda a construir os melhores pratos com receitas criadas por profissionais do mundo inteiro.
+        </p>
+      </div>
+      <img src="assets/chef.png" alt="Chef">
+    </div>
+
+    <h2>Mais acessadas</h2>
+
+    <section id="receitas">
+
+      {% for item in items %}
+        <div id="{{item.id}}" class="receita">
+          
+          <img src="https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/launchbase/receitas/{{item.id}}.png" alt="Imagem de {{item.title}}">
+          <h4>{{item.title}}</h4>
+          <p>por {{item.author}}</p>
+
+        </div>
+      {% endfor %}
+
+    </section>
+
+    <script src="/scripts.js"></script>
+
+  {% endblock %}

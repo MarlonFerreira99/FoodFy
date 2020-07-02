@@ -1,0 +1,58 @@
+{% extends "layout.njk" %}
+
+  {% block content %}
+  
+    <h2>Mais acessadas</h2>
+
+    <section id="receitas">
+
+      {% for item in items %}
+        <div class="receita" id="{{item.id}}">
+          
+          <img src="https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/launchbase/receitas/{{item.id}}.png" alt="Imagem de {{item.title}}">
+          
+          <div>
+            <h4 class="title">{{item.title}}</h4>
+            <p class="text">por {{item.author}}</p>
+          </div>
+        </div>
+      {% endfor %}
+
+      {% for item in items %}
+        <div class="receita" id="{{item.id}}">
+          
+          <img src="https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/launchbase/receitas/{{item.id}}.png" alt="Imagem de {{item.title}}">
+          
+          <div>
+            <h4 class="title">{{item.title}}</h4>
+            <p class="text">por {{item.author}}</p>
+          </div>
+        </div>
+      {% endfor %}
+
+    </section>
+
+    <div class="modal-overlay">
+      <div class="modal">
+
+        <a class="close-modal">Fechar modal</a>
+
+        <div class="modal-content">
+            <img src="" alt="">
+          
+            <div>
+              <h4></h4>
+              <p></p> 
+            </div>
+          
+        </div>
+
+      </div>
+    </div>
+
+    <script src="/scripts.js"></script>
+
+  {% endblock %}
+  
+ 
+   

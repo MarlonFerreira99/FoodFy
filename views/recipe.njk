@@ -1,0 +1,67 @@
+{% extends "layout.njk" %}
+
+  {% block head %}
+      <title>{{item.title}}</title>
+  {% endblock %}
+
+
+  {% block content %}
+
+    <div id="{{item.id}}" class="recipe">
+
+
+       <div class="recipe-card">
+          <img src="https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/launchbase/receitas/{{item.id}}.png" alt="Imagem de {{item.title}}">
+          <h1>{{item.title}}</h1>
+          <h5>por {{item.author}}</h5>
+       </div>
+
+      <div class="recipe-ingredients">
+          <div class="title-ingredients">
+            <h2>Ingredientes</h2>
+            <a id="btn-ingredients">OCULTAR</a>
+          </div>
+
+          <div class="list-ingredients">
+            <ul>
+              {% for ingredient in item.ingredients %}
+                <li>{{ingredient}};</li>
+              {% endfor %}
+            </ul>
+          </div>   
+      </div>
+      
+      <div class="recipe-preparation">
+          <div class="title-preparation">
+            <h2>Modo de preparo</h2>
+            <a id="btn-preparation">MOSTRAR</a>
+          </div>
+          
+          <div class="list-preparation active">
+            <ol>
+              {% for preparatio in item.preparation %}
+                <li>{{preparatio}}</li>
+              {% endfor %}
+            </ol>
+          </div> 
+      </div>
+
+      <div class="recipe-information">
+          <div class="title-information">
+            <h2>Informações adicionais</h2>
+            <a id="btn-information">OCULTAR</a>
+          </div>
+
+          <p class="description">{{item.information}}</p>
+
+      </div>
+
+
+    </div>
+
+    <script src="/scripts.js"></script>
+
+  {% endblock %}
+  
+ 
+   

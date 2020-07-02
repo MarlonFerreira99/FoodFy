@@ -1,14 +1,14 @@
 <h1 align="center">
-    <img src="assets/logo.png">
-</h1>
+    <img src="public/assets/logo.png">
+</h1
 
 <h1 align="center">
-    <img src="assets/apresentacao.gif" >
+    <img src="public/assets/presentation.gif" >
 </h1>
 
 ### 🌱Status
 
-<img src="https://camo.githubusercontent.com/9740d6ecb225098be634d0d605a495343037d581/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d4573746525323070726f6a65746f253230657374254333254131253230656d253230616e64616d656e746f2d626c75653f6c6f676f3d76697375616c2d73747564696f2d636f6465">
+<img src="https://img.icons8.com/color/0.7x/visual-studio-code-2019.png">  **Projeto Concluído.**
 
 ---
 
@@ -22,11 +22,13 @@ O projeto **FoodFy** é para divulgar receitas na web, e foi criado dentro do cu
 
 O projeto foi desenvolvido utilizando as seguintes tecnologias
 
-<img src="https://camo.githubusercontent.com/6a63ee44f9bd2b7b760746853a4dbcb2f97fc33c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f48544d4c2d626c61636b3f6c6f676f3d68746d6c35">
+<img src="https://img.icons8.com/color/0.8x/html-5.png">
 
-<img src="https://camo.githubusercontent.com/f468cd6eb8459644f82dd20f8687b57798b3bbe2/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4353532d626c61636b3f6c6f676f3d63737333">
+<img src="https://img.icons8.com/color/0.8x/css3.png">
 
-<img src="https://camo.githubusercontent.com/75bc450b3b62994027b4b188f25b9a05c9660323/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4a6176617363726970742d626c61636b3f6c6f676f3d6a617661736372697074">
+<img src="https://img.icons8.com/color/0.8x/javascript.png">
+
+<img src="https://img.icons8.com/color/0.8x/nodejs.png">
 
 
 ---
