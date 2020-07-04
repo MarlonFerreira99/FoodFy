@@ -3,12 +3,12 @@
 </h1
 
 <h1 align="center">
-    <img src="public/assets/presentation.gif" >
+    <img src="public/assets/presentation.gif">
 </h1>
 
 ### 🌱Status
 
-<img src="https://img.icons8.com/color/0.7x/visual-studio-code-2019.png">  **Projeto Concluído.**
+<img src="https://camo.githubusercontent.com/9740d6ecb225098be634d0d605a495343037d581/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d4573746525323070726f6a65746f253230657374254333254131253230656d253230616e64616d656e746f2d626c75653f6c6f676f3d76697375616c2d73747564696f2d636f6465">
 
 ---
 
